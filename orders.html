@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Granny's Crochet :: Orders</title>
+    <meta charset="utf-8">
+    <link href="grannys.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+			<h1><a href="index.html">Granny's Crochet</a></h1>
+		</header>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="patterns.html">Patterns</a></li>
+                <li><a href="orders.html">Orders</a></li>
+            </ul>
+
+
+        </nav>
+
+        <div id="orders"></div>
+
+        <main>
+            <h2>Granny's Awesome Crochet Patterns</h2>
+            <h3>Granny's orders Form</h3>.
+            <p>Required field are makred with an asterisk*</p>
+
+            <form action="http://webdevbasics.net/scripts/demo.php" method="post">
+
+                <label>*First Name:</label>
+                <input type="text" name="fname" id="fname" required>
+
+                <label for="lastName">*Last Name: </label>
+                <input type="text" name="lastName" id="lastName" required>
+
+                <label for="email">*Email:</label>
+                <input type="text" name="email" id="email" required>
+
+                <label for="tel">Phone Number:</label>
+                <input type="tel" name="tel" id="tel" maxlength="12">
+
+                <fieldset>
+
+                    <legend>Choose your kits:</legend>
+
+                    <h3>Ripple Afghan</h3>
+                    <p><input type="checkbox" name="Ripple Afghan" value="Ripple Afghan"><br></p>
+
+                    <h3>Single Stitch</h3>
+                    <p><input type="checkbox" name="Single Stitch" value="Single Stitch"><br></p>
+
+                    <h3>Granny Solid Squares</h3>
+                    <p><input type="checkbox" name="Granny Solid Squares" value="Granny Solid Squares"><br></p>
+                    <br>
+                    <input type="submit" value="Submit now">
+                </fieldset>
+            </form>
+
+        </main>
+
+        <footer>
+            Copyright &copy; Granny's Crochet Patterns<br>
+            <a href="mailto:GrannysCrochet@gmail.com">GrannysCrochet@gmail.com</a>
+
+        </footer>
+    </div>
+</body>
+
+</html>
